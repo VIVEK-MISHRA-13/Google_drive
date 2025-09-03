@@ -13,6 +13,9 @@
     class="bg-blue-500 hover:bg-blue-700 text-white font bold py-2 px-4 rounded">Upload File</button>
 
     <div class="pop hidden  backdrop-blur fixed top-0 left-0 h-screen w-screen flex  flex-col items-center justify-center">
+          <button class="bg-red-600 mb-3 px-4 py-2 text-white font-semibold rounded-full" onclick="hidePopUp()">
+           X 
+        </button>
       
         
         <form action="/upload-file" method="post" enctype="multipart/form-data">
@@ -36,9 +39,7 @@
             class="bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded px-7 py-3 mt-3">Upload File</button>
         </form>
 
-        <button class="bg-red-700 px-4 py-2 text-white font-semibold rounded" onclick="hidePopUp()">
-           X Close 
-        </button>
+      
 
     </div>
 
